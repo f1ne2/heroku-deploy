@@ -75,7 +75,7 @@ def create_user() -> wrappers.Response:
 
 
 @app.route('/user/<int:id>', methods=['PUT'])
-@token_required
+# @token_required
 def promote_user(id: int) -> wrappers.Response:
     user = Users.query.filter_by(id=id).first()
 
