@@ -1,0 +1,13 @@
+/venv/*
+/__pycache__/*
+/migrations/__pycache__/*
+/app/__pycache__/*
+/.idea/*
+/tests/test_models.db
+/app/api/__pycache__/*
+config.pyс
+quiz.pyc
+/app/api/__init__.pyc
+/app/__init__.pyc
+/tests/__pycache__/*
+/migrations/version/__pycache__/*
